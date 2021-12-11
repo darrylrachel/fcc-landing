@@ -52,6 +52,57 @@ a {
   font-weight: 900;
 }
 .hero {
-  border-top: 1px solid rgb(29, 29, 29);
+  border-top: 1px solid rgb(75, 75, 75);
   margin-top: 20px;
+}
+.wrapper {
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 90%;
+}
+.heading,
+.cta {
+  text-align: center;
+}
+.heading {
+  font-size: 30px;
+}
+.cta {
+  margin-top: 30px;
+
+}
+.button a {
+  color: #FFF;
+  background-color: rgb(0, 137, 155);
+  border-radius: 6px;;
+  font-size: 16px;
+  padding: 14px 50px;
+}
+.form {
+  margin-top: 20px;
+  text-align: center;
+}
+.form_field {
+  font-size: 14px;
+  padding: 10px 100px 5px 5px;
+}
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 120px;
+}
+.columns {
+  text-align: center;
+  padding: 20px 10px;
+}
+.fas, .card_heading,
+.text {
+  margin-top: 5px;
+}
+.fas {
+  font-size: 35px;
+}
+.card_heading {
+  font-size: 25px;
 }

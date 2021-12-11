@@ -6,22 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FCC | Landing Page</title>
   <link rel="stylesheet" href="assets/stylesheets/reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/stylesheets/styles.css">
 </head>
 <body>
-  <section class="container box1">
-    <header class="navbar">
-      <p class="logo__navbar"><span class="special">HUMBLD</span>KING</p>
-      <ul class="nav__navbar">
-        <li class="nav_items"><a href="#">About</a></li>
-        <li class="nav_items"><a href="#">Blog</a></li>
-        <li class="nav_items"><a href="#">Contact</a></li>
-      </ul>
+  <section class="container">
+    <header id="header" class="navbar">
+      <p id="header-img" class="logo__navbar"><span class="special">HUMBLD</span>KING</p>
+      <nav id="nav-bar">
+        <ul class="nav__navbar">
+          <li class="nav_items"><a href="#">About</a></li>
+          <li class="nav_items"><a href="#">Blog</a></li>
+          <li class="nav_items"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <!-- end header -->
-    <section class="hero box2">
-
+    <section class="hero">
+      <div class="wrapper">
+        <div class="heading">
+          <h1>Subscribe to our newsletter</h1>
+        </div>
+        <div class="form">
+          <input type="text" class="form_field" placeholder="Enter your email">
+        </div>
+        <div class="cta">
+          <p class="button"><a href="https://www.freecodecamp.com/email-submit">Submit</a></p>
+        </div>
+      </div>
     </section>
+    <!-- end newsletter section -->
+    <section class="features">
+      <div class="columns">
+        <i class="fas fa-briefcase"></i>
+        <p class="card_heading">Heading</p>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, vero. Laboriosam vel deserunt, incidunt</p>
+      </div>
+      <div class="columns">
+        <i class="fas fa-briefcase"></i>
+        <p class="card_heading">Heading</p>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, vero. Laboriosam vel deserunt, incidunt</p>
+      </div>
+      <div class="columns">
+        <i class="fas fa-briefcase"></i>
+        <p class="card_heading">Heading</p>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, vero. Laboriosam vel deserunt, incidunt</p>
+      </div>
+    </section>
+
+
   </section>
+  <!-- end main section -->
 </body>
 </html>
